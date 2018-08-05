@@ -27,19 +27,21 @@ nav {
 }
 
 section {
-    background:  #ebebeb;
+    background: #ebebeb;
     width: 495px;
     text-align: center;
     line-height: 300px;
 }
 
+
+}
 article {
-    background:#777;
+    background: #777;
     width: 475px;
     color: white;
     line-height: 200px;
-    text-align: center; 
-    margin-left: 10px;
+    border: 25px;
+    text-align: center;
 }
 
 aside {
@@ -48,5 +50,3 @@ aside {
     line-height: 200px;
     font-color: #white;
 }
-
-
