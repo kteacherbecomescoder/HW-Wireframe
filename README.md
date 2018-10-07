@@ -8,7 +8,8 @@ Ths project was developed for the University of Arizona Coding Bootcamp
 
 View Project Here:   https://kteacherbecomescoder.github.io/HW-Wireframe/
 
-### Technologies Used:
+
+## Technologies Used:
 Hypertext Markup Language (HTML)
 
 Cascading Style Sheets (CSS)
