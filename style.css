@@ -4,47 +4,56 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px;
+    margin: auto;
+    line-height: 30px;
 }
 
-.container {
-    width: 1024px;
-    margin: 0 auto;
-}
-
-header {
+header,
+nav,
+section,
+aside,
+footer {
+    display: block;
     background: #ebebee;
-    width: 960px;
-    line-height: 75px;
-    text-align: center
-}
-
-nav {
-    background: #ebebee;
-    width: 495px;
     text-align: center;
-    line-height: 75px;
-    width: 960px;
+    padding: 10px;
+    margin: 10px;
 }
 
 section {
-    background: #ebebeb;
-    width: 495px;
-    text-align: center;
-    line-height: 300px;
-}
-
-article {
-    background: #777;
-    width: 475px;
-    color: white;
-    line-height: 200px;
-    border: 25px;
-    text-align: center;
+    overflow: hidden;
+    width: 480px;
+    float: left;
+    display: block;
+    height: 267px;
 }
 
 aside {
-    color: #ebebeb;
-    width: 495px;
-    line-height: 200px;
-    color: white;
+    float: right;
+    width: 40%;
+    overflow: hidden;
+    height: 267px;
+    display: block;
 }
+
+article {
+    color: #ebebeb;
+    background: #777;
+    padding: 10px;
+}
+
+.empty {
+    clear: both;
+}
+
+h1,
+p {
+    background: #ebebeb;
+    color: #777;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    width: 90%;
+}
+
+
